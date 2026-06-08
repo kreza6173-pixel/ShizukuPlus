@@ -362,3 +362,4 @@ jobs:
           APK_FILE=$(find files -name "*.apk" -type f | head -1)
           # Always create a full release as requested
           gh release create "$TAG_NAME" "$APK_FILE" --title "$VERSION" --notes-file release_notes.md
+          
